@@ -1,0 +1,205 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #121212;
+  color: white;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #1f1f1f;
+  padding: 16px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+nav a {
+  color: #ccc;
+  margin-left: 20px;
+  font-size: 14px;
+}
+
+nav a.active,
+nav a:hover {
+  color: #00d1ff;
+}
+
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 40px;
+}
+
+.hero .content {
+  max-width: 500px;
+}
+
+.hero .content h1 {
+  font-size: 28px;
+}
+
+.hero .content h2 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.hero .content span {
+  color: #00d1ff;
+}
+
+.hero .content p {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.hero button {
+  margin-top: 15px;
+  background: #00d1ff;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 4px;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.profile-img img {
+  width: 220px;
+  border-radius: 50%;
+  border: 4px solid #00d1ff;
+  
+}
+
+.about {
+  display: flex;
+ justify-content: space-between;
+
+  gap: 40px;
+  padding: 60px 40px;
+}
+
+.about .image img {
+  width: 180px;
+  border-radius: 10px;
+  border: 2px solid #00d1ff;
+  margin-top: 3rem;
+}
+
+.about .text h2 span {
+  color: #00d1ff;
+}
+
+ .btn {
+  margin-top: 15px;
+  background: #00d1ff;
+  padding: 8px 16px;
+  border-radius: 4px;
+  color: black;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.skill {
+  padding: 60px 40px;
+  text-align: center;
+}
+
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.box {
+  background: #1f1f1f;
+  padding: 20px;
+  border-radius: 6px;
+  width: 220px;
+  text-align: left;
+}
+
+.box h3 {
+  margin-bottom: 10px;
+  color: #00d1ff;
+}
+
+.box a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #00d1ff;
+  font-size: 14px;
+}
+
+.Project {
+  padding: 60px 40px;
+  text-align: center;
+}
+
+.Project h2 span {
+  color: #00d1ff;
+}
+
+.gallery {
+  margin-top: 20px;
+  display: flex;
+  gap: 5rem;
+justify-content: center;
+  
+}
+.gallery img{
+    height: 200px;
+    width: 200px;
+    object-fit:fill;
+}
+
+.contact {
+  padding: 60px 40px;
+  text-align: center;
+}
+
+.contact h2 span {
+  color: #00d1ff;
+}
+
+.contact .contact-links {
+  margin-top: 30px;
+  display: grid;
+  gap: 15px;
+}
+
+.contact .contact-links a {
+  background: #1f1f1f;
+  color: #00d1ff;
+  padding: 10px 14px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-size: 14px;
+}
+
+.contact .contact-links i {
+  font-size: 16px;
+}
+
+footer {
+  background: #1f1f1f;
+  padding: 15px;
+  text-align: center;
+  font-size: 12px;
+  color: #aaa;
+}
+
+a{
+    text-decoration: none;
+}
